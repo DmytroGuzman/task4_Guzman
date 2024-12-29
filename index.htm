@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog UI</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="#">Blog UI</a>
+        <nav>
+            <a href="index.htm">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Resources</a>
+            <a href="#">Pricing</a>
+            <div class="auth-buttons">
+                <button>Log in</button>
+                <button>Sign up</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
+    </div>
+
+    <aside>
+        <ul id="category-list">
+            <li><a href="#" class="category-link" data-category="all">All</a></li>
+            <li><a href="#" class="category-link" data-category="category1">Category 1</a></li>
+            <li><a href="#" class="category-link" data-category="category2">Category 2</a></li>
+            <li><a href="#" class="category-link" data-category="category3">Category 3</a></li>
+        </ul>
+    </aside>
+
+    <section id="blog-container">
+        <article data-category="category1">
+            <img src="img/blog.png" alt="Blog_1">
+            <h2>First Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="post_1.htm">More</a>
+        </article>
+
+        <article data-category="category1">
+            <img src="img/blog.png" alt="Blog_2">
+            <h2>Second Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="#">More</a>
+        </article>
+
+        <article data-category="category3">
+            <img src="img/blog.png" alt="Blog_3">
+            <h2>Third Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="#">More</a>
+        </article>
+
+        <article data-category="category2">
+            <img src="img/blog.png" alt="Blog_4">
+            <h2>Fourth Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="#">More</a>
+        </article>
+
+        <article data-category="category2">
+            <img src="img/blog.png" alt="Blog_5">
+            <h2>Fifth Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="#">More</a>
+        </article>
+
+        <article data-category="category1">
+            <img src="img/blog.png" alt="Blog_6">
+            <h2>Sixth Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="#">More</a>
+        </article>
+
+        <article data-category="category3">
+            <img src="img/blog.png" alt="Blog_7">
+            <h2>Seventh Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="#">More</a>
+        </article>
+
+        <article data-category="category2">
+            <img src="img/blog.png" alt="Blog_8">
+            <h2>Eighth Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="#">More</a>
+        </article>
+
+        <article data-category="category3">
+            <img src="img/blog.png" alt="Blog_9">
+            <h2>Ninth Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <a href="#">More</a>
+        </article>
+    </section>
+
+    <footer>
+        <p class="text_autor">Copyright 2024, Huzman Dmitro</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
